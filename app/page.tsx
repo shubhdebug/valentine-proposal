@@ -10,15 +10,17 @@ const quintessential = Quintessential({
 
 export default function Home() {
   const [step, setStep] = useState("start");
-  const [history, setHistory] = useState([]);
+const [history, setHistory] = useState<string[]>([]);
+
   const [pos, setPos] = useState({ top: "60%", left: "60%" });
   const [showCartoon, setShowCartoon] = useState(false);
   const [showHearts, setShowHearts] = useState(false);
 
-  const goTo = (newStep) => {
-    setHistory((prev) => [...prev, step]);
-    setStep(newStep);
-  };
+  const goTo = (newStep: string) => {
+  setHistory(prev => [...prev, step]);
+  setStep(newStep);
+};
+
 
   const goBack = () => {
     setHistory((prev) => {
@@ -36,7 +38,7 @@ export default function Home() {
   };
 
   // Video
-  const videoRef = useRef(null);
+  const videoRef = useRef<HTMLVideoElement | null>(null);
   useEffect(() => {
     if (step === "forever" && videoRef.current) {
       videoRef.current.play();
@@ -44,9 +46,11 @@ export default function Home() {
   }, [step]);
   // Quiz
 const [quizStep, setQuizStep] = useState(1);
-const [selectedOption, setSelectedOption] = useState(null);
+const [selectedOption, setSelectedOption] = useState<string | null>(null);
 
-const quizData = {
+
+const quizData: Record<number, { question: string; options: string[] }> = {
+
   1: {
     question: "Who is more likely to start a random argument but forget about it immediately? 😂",
     options: ["You 😏", "Me 😘", "Both like Tom & Jerry 🐭🐱"],
