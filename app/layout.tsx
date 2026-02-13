@@ -31,14 +31,15 @@ export const metadata: Metadata = {
     description: "Open this surprise 😉",
     url: "https://velvety-beignet-2b2463.netlify.app", // 👈 apna netlify link dalna
     siteName: "Valentine Surprise",
-    images: [
-      {
-        url: "/Images/love.gif", // 👈 preview image
-        width: 1200,
-        height: 630,
-        alt: "Happy Valentine",
-      },
-    ],
+   images: [
+  {
+    url: "https://velvety-beignet-2b2463.netlify.app/Images/love.gif",
+    width: 1200,
+    height: 630,
+    alt: "Happy Valentine",
+  },
+],
+
     type: "website",
   },
 
