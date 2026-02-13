@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Happy Valentine Day ❤️",
     description: "Open this surprise 😉",
-    url: "https://your-site-name.netlify.app", // 👈 apna netlify link dalna
+    url: "https://velvety-beignet-2b2463.netlify.app", // 👈 apna netlify link dalna
     siteName: "Valentine Surprise",
     images: [
       {
