@@ -93,7 +93,7 @@ This past year, whether in small moments or big ones, has been absolutely pricel
 Thank you for being exactly who you are, and for all the beautiful memories we’ve shared. ❤️
 
 Always yours,
-Shubhangi Sen
+Shubhangi Sen indore shaadi.com
 `;
 
   return (
@@ -204,7 +204,7 @@ Shubhangi Sen
         <div className="bg-pink-200 p-6 sm:p-10 md:p-16 text-center rounded-3xl w-full max-w-3xl transition-all duration-700">
           <img src="/Images/img2.gif" className="mx-auto mb-4" />
           <h1 className="text-3xl sm:text-5xl text-pink-600 font-bold">
-            Happy Valentine Day Dear!💖
+            Happy Valentine Day A MAN!💖
           </h1>
           <p className="mt-4 text-amber-950">
             We fight like Tom & Jerry but love endlessly ❤️
@@ -328,7 +328,7 @@ Shubhangi Sen
   <div className="bg-pink-200 px-4 sm:px-10 py-10 rounded-3xl text-center max-h-[80vh] overflow-y-auto w-full max-w-6xl">
 
     <h1 className="text-3xl sm:text-4xl font-bold mb-10 text-amber-950">
-      Memories 📸
+      Your Memories 📸
     </h1>
 
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
